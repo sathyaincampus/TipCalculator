@@ -14,7 +14,6 @@
 		5C2E19F919C28B3400DF60C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E19F819C28B3400DF60C1 /* main.m */; };
 		5C2E19FD19C28B3400DF60C1 /* sathyaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E19FC19C28B3400DF60C1 /* sathyaAppDelegate.m */; };
 		5C2E1A0019C28B3400DF60C1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2E19FE19C28B3400DF60C1 /* Main_iPhone.storyboard */; };
-		5C2E1A0319C28B3400DF60C1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2E1A0119C28B3400DF60C1 /* Main_iPad.storyboard */; };
 		5C2E1A0619C28B3400DF60C1 /* sathyaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E1A0519C28B3400DF60C1 /* sathyaViewController.m */; };
 		5C2E1A0819C28B3400DF60C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2E1A0719C28B3400DF60C1 /* Images.xcassets */; };
 		5C2E1A0F19C28B3400DF60C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2E1A0E19C28B3400DF60C1 /* XCTest.framework */; };
@@ -46,7 +45,6 @@
 		5C2E19FB19C28B3400DF60C1 /* sathyaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sathyaAppDelegate.h; sourceTree = "<group>"; };
 		5C2E19FC19C28B3400DF60C1 /* sathyaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sathyaAppDelegate.m; sourceTree = "<group>"; };
 		5C2E19FF19C28B3400DF60C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5C2E1A0219C28B3400DF60C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5C2E1A0419C28B3400DF60C1 /* sathyaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sathyaViewController.h; sourceTree = "<group>"; };
 		5C2E1A0519C28B3400DF60C1 /* sathyaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sathyaViewController.m; sourceTree = "<group>"; };
 		5C2E1A0719C28B3400DF60C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				5C2E19FB19C28B3400DF60C1 /* sathyaAppDelegate.h */,
 				5C2E19FC19C28B3400DF60C1 /* sathyaAppDelegate.m */,
 				5C2E19FE19C28B3400DF60C1 /* Main_iPhone.storyboard */,
-				5C2E1A0119C28B3400DF60C1 /* Main_iPad.storyboard */,
 				5C2E1A0419C28B3400DF60C1 /* sathyaViewController.h */,
 				5C2E1A0519C28B3400DF60C1 /* sathyaViewController.m */,
 				5C2E1A0719C28B3400DF60C1 /* Images.xcassets */,
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C2E1A0319C28B3400DF60C1 /* Main_iPad.storyboard in Resources */,
 				5C2E1A0819C28B3400DF60C1 /* Images.xcassets in Resources */,
 				5C2E1A0019C28B3400DF60C1 /* Main_iPhone.storyboard in Resources */,
 				5C2E19F719C28B3400DF60C1 /* InfoPlist.strings in Resources */,
@@ -293,14 +289,6 @@
 				5C2E19FF19C28B3400DF60C1 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5C2E1A0119C28B3400DF60C1 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C2E1A0219C28B3400DF60C1 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		5C2E1A1719C28B3400DF60C1 /* InfoPlist.strings */ = {
@@ -471,6 +459,7 @@
 				5C2E1A2019C28B3400DF60C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C2E1A2119C28B3400DF60C1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +468,7 @@
 				5C2E1A2319C28B3400DF60C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
